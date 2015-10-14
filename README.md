@@ -15,8 +15,8 @@ from IPython.html.widgets import interact, interactive, fixed
 from IPython.html import widgets
 
 @interact(idx=(0,100))
-	def viz_data(idx):
-		code_for_visualizing_the_idx_th_data()
+def viz_data(idx):
+	code_for_visualizing_the_idx_th_data()
 ```
 
 ### Animation
